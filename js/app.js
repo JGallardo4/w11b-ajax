@@ -52,7 +52,7 @@ function refreshPage(drink) {
             let measure = drink["strMeasure" + i];
             let ingredient_name = drink["strIngredient" + i];
 
-            let ingredient = createIngredient(measure + ingredient_name);
+            let ingredient = createIngredient(measure + " " + ingredient_name);
 
             ingredients.appendChild(ingredient);
         }
